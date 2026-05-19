@@ -2,7 +2,7 @@ name: 墨水屏综合看板推送
 
 on:
   schedule:
-    - cron: '20,50 * * * *'  # 每小时 20、50 分钟的时候运行
+    - cron: '23,53 * * * *'  # 每小时 20、50 分钟的时候运行
   workflow_dispatch:
 
 jobs:
